@@ -5,6 +5,19 @@ body {
   border: 0px;
   padding: 0px;
 }
+.potfolio {
+  position: fixed;
+  right: 50px;
+  color: white;
+
+  margin-top: 0px;
+  margin-right: px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 15px;
+  z-index: 9999999999999999999999999999999999999;
+}
 
 .nav-menu {
   position: fixed;
@@ -22,7 +35,6 @@ body {
   width: 100%;
   text-align: center;
   transition: 0.3s;
-  z-index: 99999999999999;
 }
 
 .nav-menu.active {
@@ -644,10 +656,10 @@ h5 {
   height: 250px;
   gap: 0px;
   margin: auto;
-  opacity: 0px;
   background: rgba(33, 89, 87, 1);
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 
 .subsection5a {
@@ -885,7 +897,7 @@ a {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 33px;
-    z-index: 999999999999999;
+    z-index: 9999999;
     box-sizing: border-box;
     background: rgba(33, 89, 87, 1);
   }
@@ -2280,6 +2292,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .potfolio {
+    right: 40px;
+  }
   .first_containter {
     width: 100%;
     height: 1200px;
