@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "first project",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
