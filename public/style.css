@@ -58,7 +58,6 @@ body {
   gap: 8px;
   border-radius: 12px;
   border: 1px solid rgba(89, 193, 189, 1);
-
 }
 .drop_1 {
   display: flex;
@@ -2525,7 +2524,6 @@ a {
     background: rgba(240, 249, 249, 1);
     position: absolute;
     margin-left: 135px;
-    background-color: blue;
     gap: 3px;
     margin-top: -30px;
   }
@@ -2765,7 +2763,20 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+  }
+  .subsection4_p1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    width: 338px;
+    margin: auto;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .forth_container {
@@ -2959,6 +2970,5 @@ a {
   }
   .a3 {
     /* margin-left: 225px; */
-
   }
 }
