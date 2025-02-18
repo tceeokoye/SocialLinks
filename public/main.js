@@ -1,6 +1,14 @@
-var navIcons = document.querySelector('.dropbox');
-const navMenu = document.querySelector(".nav-menu");
+const loginNavIcons = document.querySelector('.login-icon');
+const loginNavMenu = document.querySelector(".login-screen");
+
+loginNavIcons.addEventListener('click', function () {
+    loginNavMenu.classList.toggle("active");
+});
+
+
+const navIcons = document.querySelector(".dropbox") 
+const navManu = document.querySelector(".header-nav")
 
 navIcons.addEventListener('click', function () {
-    navMenu.classList.toggle("active");
+    navManu.classList.toggle("active");
 });
